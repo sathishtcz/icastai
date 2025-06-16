@@ -9,10 +9,12 @@ import Scopepage from "../component/Scopepage/Scopepage";
 import Aboutpage from "../component/Aboutpage/Aboutpage";
 import Home from "../component/Home/Home";
 import Committeepage from "../component/Committeepage/Committeepage";
+import Scrolltotop from "./scrolltotop";
 
 export default function AppRouter() {
     return (
         <BrowserRouter>
+            <Scrolltotop />
             <Routes>
                 <Route element={<Main />}>
                     <Route path="/" element={<Home />} />
