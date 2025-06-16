@@ -2,7 +2,7 @@ import React from 'react'
 import { GoDotFill } from 'react-icons/go'
 import { PiStarFourFill } from 'react-icons/pi'
 
-export default function organizingcommittee() {
+export default function Organizingcommittee() {
   return (
     <>
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3">
