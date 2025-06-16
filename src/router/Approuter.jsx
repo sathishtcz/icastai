@@ -5,7 +5,7 @@ import Papersubpage from "../component/Papersubpage/Papersubpage";
 import Keydatepage from "../component/Keydatepage/Keydatepage";
 import Conferencepage from "../component/Conferencepage/Conferencepage";
 import Editorialpage from "../component/Editorialpage/Editorialpage";
-import Organizingpage from "../component/organizingpage/organizingpage";
+import Organizingpage from "../component/organizingpage/Organizingpage.jsx";
 import Scopepage from "../component/Scopepage/Scopepage";
 import Aboutpage from "../component/Aboutpage/Aboutpage";
 import Home from "../component/Home/Home";
