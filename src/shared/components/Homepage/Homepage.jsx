@@ -14,24 +14,24 @@ function Homepage() {
   return (
     <>
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3 lg:block hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-15 gap-5 ">
-          <div className="flex justify-center items-center">
-            <img src="/assets/images/hero.jpg" alt="heroimage" className='h-full w-full object-contain ' />
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-15 gap-5">
+          <div className="flex justify-center items-end">
+            <img src="/assets/images/hero.jpg" alt="heroimage" className='w-full object-contain ' />
           </div>
           <div className="flex flex-col justify-center ">
             <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 lg:gap-8 mb-6 xs:mb-4 sm:mb-6 md:mb-8 lg:mb-10'>
-              <button className='bg-[#1F1F1F] text-white p-3  md:p-3 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
-                <PiCalendarCheckFill className='text-lg xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl' />
-                <p className="xs:text-sm sm:text-base md:text-lg lg:text-lg">August 28-30, 2025 </p>
+              <button className='bg-[#1F1F1F] text-white px-2 py-2 rounded flex items-center justify-center gap-2  sm:gap-2 md:gap-3 '>
+                <PiCalendarCheckFill className='text-lg  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl' />
+                <p className="text-base lg:text-sm xl:text-lg">August 28-30, 2025 </p>
               </button>
-              <button className='bg-[#1F1F1F] text-white p-3  md:p-3 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
-                <IoLocationOutline className='text-lg xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl' />
-                <p className="xs:text-sm sm:text-base md:text-lg lg:text-lg">Tamil Nadu, Chennai</p>
+              <button className='bg-[#1F1F1F] text-white px-2 py-2 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
+                <IoLocationOutline className='text-lg  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl' />
+                <p className="text-base lg:text-sm xl:text-lg">Tamil Nadu, Chennai</p>
               </button>
             </div>
 
-            <div className="playfair-semibold max-w-xl lg:mb-10 mb-[12px] text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
-              <h1 className="bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent lg:leading-12 md:leading-10 sm:leading-9 leading-9">International Conference on Advanced Smart Technologies and AI Innovations</h1>
+            <div className="hanuman-semibold max-w-xl lg:mb-10 mb-[12px] text-2xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
+              <h1 className="bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent lg:leading-9 xl:leading-12 md:leading-10 sm:leading-9 leading-9">International Conference on Advanced Smart Technologies and AI Innovations</h1>
             </div>
 
             <div className="mb-[12px]">
@@ -42,9 +42,9 @@ function Homepage() {
               <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Join us at the International Conference on Advanced Smart Technologies and AI Innovations, where leading researchers, industry professionals, and academic scholars come together to explore groundbreaking advancements.</p>
             </div>
 
-            <div className="flex xl:mb-0 mb-[12px]  ">
+            <div className="flex  mb-[12px]  ">
               <div onClick={() => navigate('/paper-submission')} className="btn hover-border cursor-pointer">
-                <button className="bg-[#1F1F1F] playfair-medium text-sm xs:text-base sm:text-lg md:text-xl lg:text-xl text-white transition-all duration-200 p-2 px-5 rounded">Register Here </button>
+                <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-2 px-2 rounded">Register Here </button>
               </div>
             </div>
 
@@ -53,33 +53,33 @@ function Homepage() {
       </div>
 
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3 lg:hidden block">
-        <div className="flex flex-col justify-center gap-[12px]">
-          <div className="playfair-semibold text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
+        <div className="flex flex-col justify-center gap-[20px]">
+          <div className="hanuman-semibold text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
             <h1 className="bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent md:leading-12">International Conference on Advanced Smart Technologies and AI Innovations</h1>
           </div>
 
-          <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 '>
-              <button className='bg-[#1F1F1F] text-white p-3  md:p-3 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
-                <PiCalendarCheckFill className='text-lg xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl' />
-                <p className="xs:text-sm sm:text-base md:text-lg lg:text-lg">August 28-30, 2025 </p>
-              </button>
-              <button className='bg-[#1F1F1F] text-white p-3  md:p-3 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
-                <IoLocationOutline className='text-lg xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl' />
-                <p className="xs:text-sm sm:text-base md:text-lg lg:text-lg">Tamil Nadu, Chennai</p>
-              </button>
-            </div>
+          <div className='flex flex-row gap-3 sm:gap-4 md:gap-6 '>
+            <button className='bg-[#1F1F1F] text-white px-2 py-2 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
+              <PiCalendarCheckFill className='text-3xl  xl:text-3xl' />
+              <p className="text-sm lg:text-sm xl:text-lg">August 28-30, 2025 </p>
+            </button>
+            <button className='bg-[#1F1F1F] text-white px-2 py-2 rounded flex items-center justify-center gap-2 xs:gap-1 sm:gap-2 md:gap-3 '>
+              <IoLocationOutline className='text-3xl  xl:text-3xl' />
+              <p className="text-sm lg:text-sm xl:text-lg">Tamil Nadu, Chennai</p>
+            </button>
+          </div>
 
           <div className="">
             <h2 className="inter-medium lg:text-2xl text-lg">Exploring Innovation, Shaping the Future of Technology</h2>
           </div>
 
-          <div className="">
-            <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Join us at the International Conference on Advanced Smart Technologies and AI Innovations, where leading researchers, industry professionals, and academic scholars come together to explore groundbreaking advancements.</p>
+          <div className="hyphens-auto break-words">
+            <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">Join us at the International Conference on Advanced Smart Technologies and AI Innovations, where leading researchers, industry professionals, and academic scholars come together to explore groundbreaking advancements.</p>
           </div>
 
           <div className="flex lg:mb-0 mb-[12px]">
             <div onClick={() => navigate('/paper-submission')} className="btn hover-border cursor-pointer">
-              <button className="bg-[#1F1F1F] playfair-medium text-sm xs:text-base sm:text-lg md:text-xl lg:text-xl text-white transition-all duration-200 p-2 px-5 rounded">Register Here </button>
+              <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded">Register Here </button>
             </div>
           </div>
 
@@ -119,8 +119,8 @@ function Homepage() {
             <img src="/assets/images/Aboutc.jpg" alt="Aboutimage" className='h-full w-full object-contain ' />
           </div>
           <div className="flex flex-col justify-center items-start gap-8">
-            <h2 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">About the Conference</h2>
-            <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">The International Conference on Advanced Smart Technologies and AI Innovations is a premier global forum that brings together researchers, and technology stakeholders to share insights, present cutting-edge innovations, and explore emerging trends in the fields of Artificial Intelligence, Smart Systems, Robotics, Big Data, and Ethical AI. ASTAI serves as a dynamic platform for fostering interdisciplinary collaboration and driving forward the future of intelligent technology.</p>
+            <h2 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">About the Conference</h2>
+            <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">The International Conference on Advanced Smart Technologies and AI Innovations is a premier global forum that brings together researchers, and technology stakeholders to share insights, present cutting-edge innovations, and explore emerging trends in the fields of Artificial Intelligence, Smart Systems, Robotics, Big Data, and Ethical AI. ASTAI serves as a dynamic platform for fostering interdisciplinary collaboration and driving forward the future of intelligent technology.</p>
 
             <div className="flex flex-col gap-8">
               <div className="flex flex-col gap-1">
@@ -141,7 +141,7 @@ function Homepage() {
 
               <div className="flex">
                 <div onClick={() => navigate('/about')} className="btn hover-border cursor-pointer">
-                  <button className="bg-[#1F1F1F] playfair-medium text-sm xs:text-base sm:text-lg md:text-xl lg:text-xl text-white transition-all duration-200 p-2 px-5 rounded">Read more</button>
+                  <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded">Read more</button>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ function Homepage() {
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-18 mt-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-20 gap-6 lg:bg-[url('/assets/images/man.png')] lg:bg-no-repeat lg:bg-[length:300px] lg:bg-[position:40%_center]  bg-none">
           <div className="flex flex-col  justify-center gap-6">
-            <h2 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">Our Mission</h2>
+            <h2 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">Our Mission</h2>
             <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Our mission is to foster a global platform that empowers researchers, academicians, and industry professionals to share knowledge, drive innovation, and shape the future of computer science.</p>
             <div className="flex lg:justify-start justify-center lg:items-start items-center">
               <img src="/assets/images/Missionn.jpg" alt="Our Mission" className="h-3/4 w-3/4 object-contain" />
@@ -164,7 +164,7 @@ function Homepage() {
               <div className="flex flex-col gap-1">
                 <div className="flex gap-2 items-center">
                   <div className="bg-white p-3 rounded"><HiOutlineLightBulb className="text-3xl text-[#E0048B]" /></div>
-                  <h2 className="playfair-semibold text-xl text-white">Knowledge Sharing</h2>
+                  <h2 className="hanuman-semibold text-xl text-white">Knowledge Sharing</h2>
                 </div>
                 <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] text-white">Create a global platform for researchers, scholars, and professionals to exchange ideas and findings in computer science.</p>
               </div>
@@ -173,7 +173,7 @@ function Homepage() {
               <div className="flex flex-col gap-1">
                 <div className="flex gap-2 items-center">
                   <div className="bg-white p-3 rounded"><SlGlobe className="text-3xl text-[#E0048B]" /></div>
-                  <h2 className="playfair-semibold text-xl text-white">Global Collaboration</h2>
+                  <h2 className="hanuman-semibold text-xl text-white">Global Collaboration</h2>
                 </div>
                 <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] text-white">Bring together participants from diverse backgrounds to build partnerships that drive progress and discovery.</p>
               </div>
@@ -182,7 +182,7 @@ function Homepage() {
               <div className="flex flex-col gap-1">
                 <div className="flex gap-2 items-center">
                   <div className="bg-white p-3 rounded"><AiOutlineFileSearch className="text-3xl text-[#E0048B]" /></div>
-                  <h2 className="playfair-semibold text-xl text-white">Research Excellence</h2>
+                  <h2 className="hanuman-semibold text-xl text-white">Research Excellence</h2>
                 </div>
                 <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] text-white">Support the development of groundbreaking research that pushes the boundaries of current technology.</p>
               </div>
@@ -194,14 +194,14 @@ function Homepage() {
       {/* Our Featured Speakers */}
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-18 mt-5">
         <div className="flex flex-col gap-10 justify-center items-center">
-          <h2 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">Our Featured Speakers</h2>
+          <h2 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">Our Featured Speakers</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="p-[3px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
               <div className="bg-white rounded-md overflow-hidden">
                 <img src="/assets/images/Speaker1.jpg" alt="Speaker" className="lg:h-[350px] lg:w-[300px] md:h-[350px] md:w-[300px] sm:h-[200px] sm:w-[150px]  translate-x-6" />
                 <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-2 rounded-tl-md rounded-tr-md">
                   <div className="flex flex-col items-center gap-1">
-                    <p className="playfair-semibold text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl">John Matthews</p>
+                    <p className="hanuman-semibold text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl">John Matthews</p>
                     <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-white">Senior Research Analyst</p>
                   </div>
                 </div>
@@ -209,10 +209,10 @@ function Homepage() {
             </div>
             <div className="p-[3px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
               <div className="bg-white rounded-md overflow-hidden">
-                <img src="/assets/images/Speaker1.jpg" alt="Speaker" className="lg:h-[350px] lg:w-[300px] md:h-[350px] md:w-[300px] sm:h-[250px] sm:w-[200px] translate-x-6" />
+                <img src="/assets/images/Speaker1.jpg" alt="Speaker" className="lg:h-[350px] lg:w-[300px] md:h-[350px] md:w-[300px] sm:h-[200px] sm:w-[150px] translate-x-6" />
                 <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-2 rounded-tl-md rounded-tr-md">
                   <div className="flex flex-col items-center gap-1">
-                    <p className="playfair-semibold text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl">John Matthews</p>
+                    <p className="hanuman-semibold text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl">John Matthews</p>
                     <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-white">Senior Research Analyst</p>
                   </div>
                 </div>
@@ -220,10 +220,10 @@ function Homepage() {
             </div>
             <div className="p-[3px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
               <div className="bg-white rounded-md overflow-hidden">
-                <img src="/assets/images/Speaker1.jpg" alt="Speaker" className="lg:h-[350px] lg:w-[300px] md:h-[350px] md:w-[300px] sm:h-[250px] sm:w-[200px] translate-x-6" />
+                <img src="/assets/images/Speaker1.jpg" alt="Speaker" className="lg:h-[350px] lg:w-[300px] md:h-[350px] md:w-[300px] sm:h-[200px] sm:w-[150px] translate-x-6" />
                 <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-2 rounded-tl-md rounded-tr-md">
                   <div className="flex flex-col items-center gap-1">
-                    <p className="playfair-semibold text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl">John Matthews</p>
+                    <p className="hanuman-semibold text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl">John Matthews</p>
                     <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-white">Senior Research Analyst</p>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ function Homepage() {
 
       {/* Join Us at INCOCSA 2025 */}
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-15 mt-5">
-        <p className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl text-center">Join Us at ICASTAI 2025</p>
+        <p className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl text-center">Join Us at ICASTAI 2025</p>
         <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-700  text-center mt-6">Experience groundbreaking research presentations and network with industry leaders</p>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10 max-w-[1100px] mx-auto">
           <div className="bg-[#F6D5EA] rounded-md p-2">

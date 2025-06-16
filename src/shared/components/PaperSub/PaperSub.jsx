@@ -8,7 +8,7 @@ export default function PaperSub() {
         <>
             <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3 mb-10">
                 <div className="flex flex-col gap-2  items-center">
-                    <h1 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Paper Submission</h1>
+                    <h1 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Paper Submission</h1>
                     <div className="hidden lg:block">
                         <div className="flex flex-row justify-between gap-2 items-center ">
                             <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[125px]' />
@@ -26,7 +26,7 @@ export default function PaperSub() {
                     <div className="flex flex-col gap-5">
                         <div>
                             <div className="flex flex-col gap-3">
-                                <p className="inter-medium text-xl">Submission Guidelines:</p>
+                                <p className="inter-medium text-lg">Submission Guidelines:</p>
                                 <div className="flex gap-2 items-start">
                                     <GoDotFill className="text-[#ce1687] text-lg mt-[6px] flex-shrink-0" />
                                     <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Provide the title of your paper, which should be descriptive and concise.</p>
@@ -60,7 +60,7 @@ export default function PaperSub() {
 
                         <div>
                             <div className="flex flex-col gap-3 ">
-                                <p className="inter-medium text-xl">Important Notes:</p>
+                                <p className="inter-medium text-lg">Important Notes:</p>
                                 <div className="flex gap-2 items-start">
                                     <GoDotFill className="text-[#ce1687] text-lg mt-[6px] flex-shrink-0" />
                                     <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">All papers undergo a double-blind peer review process.</p>
@@ -99,7 +99,7 @@ export default function PaperSub() {
                     </div>
 
                     <div className="p-6 border border-pink-300 rounded-lg">
-                        <h2 className="text-xl font-semibold mb-8">Submit Your Paper</h2>
+                        <h2 className="text-lg font-semibold mb-8">Submit Your Paper</h2>
                         <form action="" className="space-y-10">
                             <input
                                 type="text"

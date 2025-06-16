@@ -11,7 +11,7 @@ function Aboutus() {
         <>
             <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3">
                 <div className="flex flex-col gap-2  items-center">
-                    <h1 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">About Our Conference</h1>
+                    <h1 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">About Our Conference</h1>
                     <div className="hidden lg:block">
                         <div className="flex flex-row justify-between gap-2 items-center ">
                             <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[170px]' />
@@ -20,7 +20,7 @@ function Aboutus() {
                         </div>
                     </div>
                 </div>
-                <h2 className="playfair-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl lg:mt-7 mt-4">International Conference on Advanced Smart Technologies and AI Innovations</h2>
+                <h2 className="hanuman-semibold text-xl lg:text-2xl lg:mt-7 mt-4">International Conference on Advanced Smart Technologies and AI Innovations</h2>
                 <div className="lg:mt-7 mt-4">
                     <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">The International Conference on Advanced Smart Technologies and AI Innovations serves as a premier platform for researchers, technologists, and industry leaders to explore and exchange insights on the latest advancements in smart technologies and artificial intelligence. This interdisciplinary forum is dedicated to showcasing pioneering research, breakthrough applications, and innovative solutions that are shaping the digital era.</p>
                     <p className='lg:mt-5 mt-4 inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]'>The conference covers a broad spectrum of topics including AI-driven automation, machine learning, intelligent systems, IoT, robotics, smart computing, and data analytics. It encourages cross-sector collaboration to solve real-world challenges and drive technological progress.</p>
@@ -28,12 +28,12 @@ function Aboutus() {
             </div>
 
             <div className="xl:max-w-[1300px]  md:max-w-[920px] mx-auto p-3 lg:mt-10 mt-5">
-                <p className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl text-center">Why Attend ICASTAI?</p>
+                <p className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl text-center">Why Attend ICASTAI?</p>
                 <div className="grid grid-cols-1 lg:grid-cols-3 items-center lg:gap-15 gap-10 mt-10 justify-content-center">
                     <div className='lg:col-span-2'>
                         <div className="flex flex-col gap-5">
                             <p className="inter-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">Why to be a part of ICASTAI?</p>
-                            <p className="playfair-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl">Be part of shaping the future of computer science</p>
+                            <p className="hanuman-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl">Be part of shaping the future of computer science</p>
                             <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">The International Conference on Advanced Smart Technologies and AI Innovations is more than just an academic event — it's a gateway to the future of intelligent systems and digital transformation. Here’s why you should be part of it:</p>
                         </div>
                         <div className="flex flex-col gap-5 mt-8">
@@ -62,7 +62,7 @@ function Aboutus() {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='lg:block hidden'>
                         <img src="/assets/images/whyicastai.jpg" alt="Aboutimage" />
                     </div>
                 </div>
@@ -71,24 +71,24 @@ function Aboutus() {
             <div className="xl:max-w-[1200px]  md:max-w-[920px] mx-auto p-3 lg:mt-15 mt-5">
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 items-center lg:gap-10 gap-8">
                     <div className="flex flex-col justify-between items-center">
-                        <div><PiUsersThreeLight className='text-8xl text-[#E0048B]' /></div>
-                        <p className="inter-semibold text-4xl">500+</p>
+                        <div><PiUsersThreeLight className='lg:text-8xl text-6xl text-[#E0048B]' /></div>
+                        <p className="inter-semibold lg:text-4xl text-2xl">500+</p>
                         <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]">Attendees</p>
                     </div>
 
                     <div className="flex flex-col justify-between items-center">
-                        <div><CiGlobe className='text-8xl text-[#E0048B]' /></div>
-                        <p className="inter-semibold text-4xl">50+</p>
+                        <div><CiGlobe className='lg:text-8xl text-6xl text-[#E0048B]' /></div>
+                        <p className="inter-semibold lg:text-4xl text-2xl">50+</p>
                         <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]">Countries</p>
                     </div>
                     <div className="flex flex-col justify-between items-center">
-                        <div><IoNewspaperOutline className='text-8xl text-[#E0048B]' /></div>
-                        <p className="inter-semibold text-4xl">100+</p>
+                        <div><IoNewspaperOutline className='lg:text-8xl text-6xl text-[#E0048B]' /></div>
+                        <p className="inter-semibold lg:text-4xl text-2xl">100+</p>
                         <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]">Papers</p>
                     </div>
                     <div className="flex flex-col justify-between items-center">
-                        <div><CiCalendar className='text-8xl text-[#E0048B]' /></div>
-                        <p className="inter-semibold text-4xl">3+</p>
+                        <div><CiCalendar className='lg:text-8xl text-6xl text-[#E0048B]' /></div>
+                        <p className="inter-semibold lg:text-4xl text-2xl">3+</p>
                         <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]">Days</p>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ export default function Editorboard() {
         <>
             <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3">
                 <div className="flex flex-col gap-2  items-center">
-                    <h1 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Editorial Board</h1>
+                    <h1 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Editorial Board</h1>
                     <div className="hidden lg:block">
                         <div className="flex flex-row justify-between gap-2 items-center ">
                             <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[100px]' />
@@ -19,7 +19,7 @@ export default function Editorboard() {
                 <div className="lg:mt-7 mt-4">
                     <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">The Editorial Board of the International Conference on Advanced Smart Technologies and AI Innovations comprises distinguished scholars, researchers, and industry leaders from around the world. With deep expertise across various domains of artificial intelligence, smart systems, and emerging technologies, the board ensures the highest standards of academic integrity, technical quality, and innovation.</p>
                     <div className="lg:mt-7 mt-4 flex flex-col gap-3">
-                        <p className="inter-medium text-xl">Roles and Responsibilities:</p>
+                        <p className="inter-medium text-lg">Roles and Responsibilities:</p>
 
                         <div className="flex gap-2 items-start">
                             <GoDotFill className="text-[#ce1687] text-lg mt-[6px] flex-shrink-0" />
@@ -46,7 +46,7 @@ export default function Editorboard() {
                 </div>
             </div>
 
-            <h3 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl text-center lg:mt-10 mt-5">Our Distinguished Editorial Board</h3>
+            <h3 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl text-center lg:mt-10 mt-5">Our Distinguished Editorial Board</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15 lg:mt-10 mt-5 xl:max-w-[1250px]  md:max-w-[1200px] mx-auto p-5">
                 <div className="p-[2px] rounded-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E]">
                     <div className="bg-white p-5 rounded-2xl overflow-hidden h-full flex flex-col">

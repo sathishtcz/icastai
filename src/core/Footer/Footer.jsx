@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#72248C] text-white rounded-tl-lg rounded-tr-lg">
       <div className=" mx-auto px-5 max-w-[92rem]  lg:py-10 py-5">
         <div className="grid grid-cols-1  md:grid-cols-4 sm:grid-cols-2 md:gap-8 gap-4">
-          <div className='text-center md:text-left flex flex-col justify-center items-center'>
+          <div className='text-start md:text-left flex flex-col justify-start items-start'>
             {/* <Link to='/'>
            
               <img className='w-40 md:mx-0   mx-auto' src="/assets/images/IJAPNS.png" alt="logo" />
@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
             </div> */}
           </div>
-          <div className='lg:mx-auto md:text-left text-center '>
+          <div className='lg:mx-auto md:text-left text-start '>
             <h4 className="text-lg font-bold mb-2 ">Quick Links</h4>
             <ul className=' lg:text-base '>
               <li><a href="/" className="hover:underline">Home</a></li>
@@ -34,8 +34,8 @@ const Footer = () => {
               <li><a className="hover:underline"><Link to='/editorial-board'>Editorial Board</Link> </a></li>
             </ul>
           </div>
-          <div className='lg:ml-auto  md:text-left text-center  '>
-            <div className='flex gap-4 flex-wrap justify-center items-end '>
+          <div className='lg:ml-auto  md:text-left text-start  '>
+            <div className='flex gap-4 flex-wrap justify-start items-end '>
               <div className=''>
                 <h4 className="text-lg font-bold mb-2 ">Registration Guide</h4>
                 <ul className="lg:text-base">
@@ -46,13 +46,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='lg:ml-auto  md:text-left text-center  '>
-            <div className='flex gap-4 flex-wrap justify-center items-end '>
+          <div className='lg:ml-auto  md:text-left text-start  '>
+            <div className='flex gap-4 flex-wrap justify-start items-end '>
               <div className=''>
                 <h4 className="text-lg font-bold mb-2 ">Contact Info</h4>
                 <ul className="lg:text-base">
                   <li><a className="hover:underline"><Link to=''>Chennai, Tamil Nadu</Link></a></li>
-                  <li><a className="hover:underline"><Link to=''>icastai.conference@gmail.com</Link></a></li>
+                  <li><a className="hover:underline"><Link to=''>
+                  icastai.conference@gmail
+                  .com</Link></a></li>
                   <li><a className="hover:underline"><Link to=''>+91 0101010101</Link></a></li>
                 </ul>
               </div>

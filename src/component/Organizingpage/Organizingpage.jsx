@@ -1,5 +1,5 @@
 import React from 'react'
-import Organizingcommittee from '../../shared/components/organizingcommittee/Organizingcommittee'
+import Organizingcommittee from '../../shared/components/Organizingcommittee/Organizingcommittee'
 
 function Organizingpage() {
   return (

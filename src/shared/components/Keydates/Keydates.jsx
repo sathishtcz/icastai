@@ -7,7 +7,7 @@ export default function Keydates() {
     <>
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3">
         <div className="flex flex-col gap-2  items-center">
-          <h1 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Important Dates & Bank Details</h1>
+          <h1 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Important Dates & Bank Details</h1>
           <div className="hidden lg:block">
             <div className="flex flex-row justify-between gap-2 items-center ">
               <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[240px]' />
@@ -27,7 +27,7 @@ export default function Keydates() {
           <div className='lg:col-span-2'>
             <div className="flex flex-col gap-5">
               <p className="inter-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">Key Dates </p>
-              <p className="playfair-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl">Gear Up for Greatness: Key Dates Ahead</p>
+              <p className="hanuman-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl">Gear Up for Greatness: Key Dates Ahead</p>
               <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Stay ahead and make the most of your conference experience by keeping track of these important milestones. Whether you're submitting a paper, registering as a participant, or planning your travel, these dates will guide your journey toward the International Conference on Advanced Smart Technologies and AI Innovations.</p>
             </div>
 
@@ -74,7 +74,7 @@ export default function Keydates() {
           <div className='lg:col-span-2'>
             <div className="flex flex-col gap-5">
               <p className="inter-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">Registration Details </p>
-              <p className="playfair-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl">Claim Your Seat at the Future for Innovation</p>
+              <p className="hanuman-semibold text-xl sm:text-2xl md:text-3xl lg:text-3xl">Claim Your Seat at the Future for Innovation</p>
               <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Join global innovators, researchers, and thought leaders at the International Conference on Advanced Smart Technologies and AI Innovations. Be part of transformative discussions, hands-on workshops, and cutting-edge presentations that showcase the latest breakthroughs in AI and smart technology. </p>
             </div>
 

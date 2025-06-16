@@ -108,7 +108,7 @@ const Header = () => {
         <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 ${scrolled ? "bg-white shadow-md" : ""}`}>
             <div className="mx-auto w-full xl:max-w-[1500px] md:max-w-[920px] flex items-center justify-between">
                 <div className="p-5">
-                    <Link to="/" className="text-4xl playfair-bold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">
+                    <Link to="/" className="text-4xl hanuman-bold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">
                         ICASTAI
                     </Link>
                     {/* <Link to="/">
@@ -169,7 +169,7 @@ const Header = () => {
                 </div> */}
                 <div className="hidden lg:flex items-center">
                     <div  onClick={() => navigate('/paper-submission')} className="btn hover-border cursor-pointer">
-                        <button className="bg-[#1F1F1F] playfair-medium text-xl text-white transition-all duration-200 p-2 rounded">Register Here </button>
+                        <button className="bg-[#1F1F1F] playfair-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded">Register Here </button>
                     </div>
                 </div>
 

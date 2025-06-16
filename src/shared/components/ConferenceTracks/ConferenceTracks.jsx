@@ -13,7 +13,7 @@ export default function ConferenceTracks() {
         <>
             <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3">
                 <div className="flex flex-col gap-2  items-center">
-                    <h1 className="playfair-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Conference Tracks</h1>
+                    <h1 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-4xl">Conference Tracks</h1>
                     <div className="hidden lg:block">
                         <div className="flex flex-row justify-between gap-2 items-center ">
                             <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[130px]' />
