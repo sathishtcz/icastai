@@ -29,62 +29,64 @@ export default function Contactus() {
             <div className="xl:max-w-[1150px]  md:max-w-[920px] mx-auto lg:mt-8 mt-5 p-3">
                 <div className="bg-[#F6D5EA]  rounded-lg p-8">
                     <div className='flex justify-center text-center'>
-                        <p className="hanuman-semibold text-xl  lg:text-xl max-w-[55rem]">Have questions about INCOCSA? We’re here to help! Feel free to reach out.</p>
+                        <p className="hanuman-semibold text-xl  lg:text-xl max-w-[55rem]">Have Questions about INCOCSA? We’re here to help! Feel free to reach out.</p>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 gap-7  mt-8">
-                        <div className="flex flex-col  gap-5">
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                                <div>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        placeholder="Enter Your First Name"
-                                        className="w-full p-3 rounded-lg  bg-white focus:outline-none"
-                                    />
-                                </div>
-                                <div>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        placeholder="Enter Your Last Name "
-                                        className="w-full p-3 rounded-lg  bg-white focus:outline-none"
-                                    />
-                                </div>
-                                <div>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        placeholder="Enter Your Email"
-                                        className="w-full p-3 rounded-lg  bg-white focus:outline-none"
-                                    />
-                                </div>
-                                <div>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        placeholder="Enter Your Phone Number"
-                                        className="w-full p-3 rounded-lg  bg-white focus:outline-none"
-                                    />
-                                </div>
-                                <div className='lg:col-span-2'>
-                                    <textarea
-                                        type="textarea"
-                                        id="name"
-                                        placeholder="Enter Your Message"
-                                        className="w-full p-3 rounded-lg  bg-white focus:outline-none"
-                                        rows="5"
-                                    >
+                        <form action="mailto:sathish49061@gmail.com" method="post" role="form">
+                            <div className="flex flex-col  gap-5">
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                                    <div>
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            placeholder="Enter Your First Name"
+                                            className="w-full p-3 rounded-lg  bg-white focus:outline-none"
+                                        />
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            placeholder="Enter Your Last Name "
+                                            className="w-full p-3 rounded-lg  bg-white focus:outline-none"
+                                        />
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            placeholder="Enter Your Email"
+                                            className="w-full p-3 rounded-lg  bg-white focus:outline-none"
+                                        />
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            placeholder="Enter Your Phone Number"
+                                            className="w-full p-3 rounded-lg  bg-white focus:outline-none"
+                                        />
+                                    </div>
+                                    <div className='lg:col-span-2'>
+                                        <textarea
+                                            type="textarea"
+                                            id="name"
+                                            placeholder="Enter Your Message"
+                                            className="w-full p-3 rounded-lg  bg-white focus:outline-none"
+                                            rows="5"
+                                        >
 
-                                    </textarea>
+                                        </textarea>
+                                    </div>
+                                </div>
+                                <div className="flex">
+                                    <div className="btn hover-border cursor-pointer">
+                                        <button type='submit' className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-3 rounded">Submit</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="flex">
-                                <div className="btn hover-border cursor-pointer">
-                                    <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-3 rounded">Submit</button>
-                                </div>
-                            </div>
-                        </div>
+                        </form>
 
                         <div className="flex flex-col lg:gap-10 gap-5">
                             <p className="hanuman-semibold text-xl  lg:text-xl">

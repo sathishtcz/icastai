@@ -120,7 +120,7 @@ export default function PaperSub() {
                                 <input
                                     type="email"
                                     placeholder="Enter Author’s Email"
-                                    className="flex-1 border border-pink-300 focus:outline-none focus:ring-1 focus:ring-pink-400 rounded-xl px-3 py-3"
+                                    className="flex-1 border border-pink-300 focus:outline-none  rounded-xl px-3 py-3"
                                 />
                             </div>
                             <select className="w-full border border-pink-300 focus:outline-none  rounded-xl px-3 py-3 text-gray-500">
@@ -135,7 +135,7 @@ export default function PaperSub() {
                                     className="absolute inset-0 opacity-0 cursor-pointer z-10"
                                 />
                                 <FiUploadCloud className="text-3xl text-pink-500 mb-2 z-0" />
-                                <p className="z-0">Click or Drag to Upload Paper</p>
+                                <p className="z-0">Click to Upload Paper</p>
                             </div>
                             <button
                                 type="submit"
