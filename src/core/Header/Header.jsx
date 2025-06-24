@@ -108,12 +108,12 @@ const Header = () => {
         <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 ${scrolled ? "bg-white shadow-md" : ""}`}>
             <div className="mx-auto w-full xl:max-w-[1500px] md:max-w-[920px] flex items-center justify-between">
                 <div className="p-5">
-                    <Link to="/" className="text-4xl hanuman-bold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">
+                    {/* <Link to="/" className="text-4xl hanuman-bold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">
                         ICASTAI
-                    </Link>
-                    {/* <Link to="/">
-                                <img className="w-40 md:mx-0 mx-auto" src="/assets/images/IJAPNS.png" alt="logo" />
-                            </Link> */}
+                    </Link> */}
+                    <Link to="/">
+                                <img className="w-40 md:mx-0 mx-auto" src="/assets/images/Logo.png" alt="logo" />
+                            </Link>
                 </div>
 
                 <div className="lg:flex hidden items-center">

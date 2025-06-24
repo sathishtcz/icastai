@@ -6,13 +6,13 @@ const Footer = () => {
       <div className=" mx-auto px-5 max-w-[92rem]  lg:py-10 py-5">
         <div className="grid grid-cols-1  md:grid-cols-4 sm:grid-cols-2 md:gap-8 gap-4">
           <div className='text-start md:text-left flex flex-col justify-start items-start'>
-            {/* <Link to='/'>
+            <Link to='/'>
            
-              <img className='w-40 md:mx-0   mx-auto' src="/assets/images/IJAPNS.png" alt="logo" />
-            </Link> */}
-            <Link to="/" className="text-white text-4xl inter-bold">
-              ICASTAI
+              <img className='w-40 md:mx-0 mx-auto bg-white rounded px-2 py-1' src="/assets/images/Logo.png" alt="logo" />
             </Link>
+            {/* <Link to="/" className="text-white text-4xl inter-bold">
+              ICASTAI
+            </Link> */}
             {/* <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
               <div className='flex gap-3 items-center'>
                 <FaEnvelope />

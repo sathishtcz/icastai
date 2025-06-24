@@ -95,7 +95,7 @@ export default function Organizingcommittee() {
               <div className="border border-gray-400 p-4 rounded-lg">
                 <div className="grid lg:grid-cols-2 items-center gap-10">
                   <div className='flex flex-col gap-4'>
-                    <p className="hanuman-semibold text-xl sm:text-2xl md:text-2xl lg:text-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">Advisory Committee</p>
+                    <p className="hanuman-semibold text-xl sm:text-2xl md:text-2xl lg:text-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">Convenors</p>
                     <div className="flex flex-col gap-2">
                       <p><span className="inter-medium text-md text-gray-900">Name :</span> <span className='text-gray-600 inter-regular'>Dr John Smith</span></p>
                       <p><span className="inter-medium text-md text-gray-900">Position :</span> <span className='text-gray-600 inter-regular'>Principal</span></p>

@@ -1,9 +1,100 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FiUploadCloud } from 'react-icons/fi'
 import { GoDotFill } from 'react-icons/go'
 import { PiStarFourFill } from 'react-icons/pi'
+import { toast } from 'react-toastify';
 
 export default function PaperSub() {
+
+    const [fileName, setFileName] = useState('Click to Upload Paper');
+
+    // const handleFileChange = (e) => {
+    //     if (e.target.files.length > 0) {
+    //         setFileName(e.target.files[0].name);
+    //     }
+    // };
+
+    const [formData, setFormData] = useState({
+        Paper_Title: '',
+        Author_FUll_Name: '',
+        Email_Address: '',
+        Institution_Name: '',
+        Paper_Track: '',
+        Paper_File: null,
+    });
+    const [status, setStatus] = useState('');
+
+    // const handleChange = (e) => {
+    //     if (e.target.type === 'file') {
+    //         setFormData({ ...formData, [e.target.name]: e.target.files[0] });
+    //     } else {
+    //         setFormData({ ...formData, [e.target.name]: e.target.value });
+    //     }
+    // };
+
+    const handleFileInputChange = (e) => {
+        const { name, type, files, value } = e.target;
+
+        // For file preview display
+        if (files && files.length > 0) {
+            setFileName(files[0].name); // update UI
+            setFormData((prev) => ({
+                ...prev,
+                [name]: files[0], // update actual form data
+            }));
+        } else {
+            setFormData((prev) => ({
+                ...prev,
+                [name]: value,
+            }));
+        }
+    };
+
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatus('Sending...');
+
+        try {
+            const formDataToSend = new FormData();
+            formDataToSend.append('Paper_Title', formData.Paper_Title);
+            formDataToSend.append('Author_FUll_Name', formData.Author_FUll_Name);
+            formDataToSend.append('Email_Address', formData.Email_Address);
+            formDataToSend.append('Institution_Name', formData.Institution_Name);
+            formDataToSend.append('Paper_Track', formData.Paper_Track);
+
+            if (formData.Paper_File) {
+                formDataToSend.append('Paper_File', formData.Paper_File);
+            }
+
+            const response = await fetch('http://192.168.29.12/ICASTAI/Icastai/mail.php', {
+                method: 'POST',
+                body: formDataToSend,
+            });
+
+            if (response.ok) {
+                const result = await response.text();
+                setStatus(result);
+                setFormData({
+                    Paper_Title: '',
+                    Author_FUll_Name: '',
+                    Email_Address: '',
+                    Institution_Name: '',
+                    Paper_Track: '',
+                    Paper_File: null,
+                });
+                // document.getElementById('Paper_File').value = '';
+                toast.success("Paper submitted successfully!");
+            } else {
+                setStatus('Failed to send submission. Please try again.');
+                toast.error('Failed to send submission. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            setStatus('An error occurred. Please try again.');
+            toast.error('An error occurred. Please try again.');
+        }
+    };
     return (
         <>
             <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto mt-20 px-3 mb-10">
@@ -100,30 +191,47 @@ export default function PaperSub() {
 
                     <div className="p-6 border border-pink-300 rounded-lg">
                         <h2 className="text-lg font-semibold mb-8">Submit Your Paper</h2>
-                        <form action="" className="space-y-10">
+                        <form onSubmit={handleSubmit} className="space-y-10">
                             <input
                                 type="text"
+                                name='Paper_Title'
+                                value={formData.Paper_Title}
+                                onChange={handleFileInputChange}
+                                required
                                 placeholder="Enter Your Paper Title"
                                 className="w-full border border-pink-300 focus:outline-none  rounded-xl px-3 py-3"
                             />
                             <input
                                 type="text"
+                                name='Institution_Name'
+                                value={formData.Institution_Name}
+                                onChange={handleFileInputChange}
+                                required
                                 placeholder="Enter Your Institution Name"
                                 className="w-full border border-pink-300 focus:outline-none  rounded-xl px-3 py-3"
                             />
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <input
+                                    name='Author_FUll_Name'
+                                    value={formData.Author_FUll_Name}
+                                    onChange={handleFileInputChange}
+                                    required
                                     type="text"
                                     placeholder="Enter Author’s Full Name"
                                     className="flex-1 border border-pink-300 focus:outline-none  rounded-xl px-3 py-3"
                                 />
                                 <input
                                     type="email"
+                                    name='Email_Address'
+                                    value={formData.Email_Address}
+                                    onChange={handleFileInputChange}
+                                    required
                                     placeholder="Enter Author’s Email"
                                     className="flex-1 border border-pink-300 focus:outline-none  rounded-xl px-3 py-3"
                                 />
                             </div>
-                            <select className="w-full border border-pink-300 focus:outline-none  rounded-xl px-3 py-3 text-gray-500">
+                            <select name='Paper_Track' value={formData.Paper_Track} onChange={handleFileInputChange}
+                                required className="w-full border border-pink-300 focus:outline-none  rounded-xl px-3 py-3 text-gray-500">
                                 <option>Select Your Category</option>
                                 <option>AI</option>
                                 <option>Machine Learning</option>
@@ -131,17 +239,22 @@ export default function PaperSub() {
                             </select>
                             <div className="relative w-full border-2 border-dashed border-pink-300 rounded-xl py-10 flex flex-col items-center justify-center text-center text-gray-500 overflow-hidden cursor-pointer">
                                 <input
+                                    name='Paper_File'
+                                    // onChange={handleChange}
+                                    accept=".pdf,.doc,.docx"
                                     type="file"
+                                     onChange={handleFileInputChange}
                                     className="absolute inset-0 opacity-0 cursor-pointer z-10"
                                 />
                                 <FiUploadCloud className="text-3xl text-pink-500 mb-2 z-0" />
-                                <p className="z-0">Click to Upload Paper</p>
+                                <p className="z-0">{fileName || "Click to Upload Paper"}</p>
                             </div>
                             <button
                                 type="submit"
+                                disabled={status === 'Sending...'}
                                 className="w-full bg-gray-800 text-white py-3 rounded-xl hover:bg-gray-800 mt-4 cursor-pointer"
                             >
-                                Submit Your Paper
+                                {status === 'Sending...' ? 'Submitting...' : 'Submit Your Paper'}
                             </button>
                         </form>
                     </div>

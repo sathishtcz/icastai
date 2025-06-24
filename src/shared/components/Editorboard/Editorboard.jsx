@@ -54,64 +54,16 @@ export default function Editorboard() {
                             <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
                                 <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
                             </div>
-                            <p className="inter-medium text-2xl text-black">Dr John Smith</p>
+                            <p className="inter-medium text-2xl text-black">Dr.Balaji K</p>
                             <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
                                 <div className="bg-white p-1 rounded-sm overflow-hidden">Editor-in-chief</div>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Prince Mohammed Bin Fahd University</p>
-                            <div className="flex gap-2">
+                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Parul University PO. Limda</p>
+                            {/* <div className="flex gap-2">
                                 <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Machine Learning
                                 </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> USA
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div className="p-[2px] rounded-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E]">
-                    <div className="bg-white p-5 rounded-2xl overflow-hidden h-full flex flex-col">
-                        <div className="flex flex-col gap-3 items-center">
-                            <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
-                                <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
-                            </div>
-                            <p className="inter-medium text-2xl text-black">Dr. Emily Carter</p>
-                            <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
-                                <div className="bg-white p-1 rounded-sm overflow-hidden">Editor-in-chief</div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Massachusetts Institute of Technology</p>
-                            <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Artificial Intelligence
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> USA
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div className="p-[2px] rounded-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E]">
-                    <div className="bg-white p-5 rounded-2xl overflow-hidden h-full flex flex-col">
-                        <div className="flex flex-col gap-3 items-center">
-                            <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
-                                <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
-                            </div>
-                            <p className="inter-medium text-2xl text-black">Prof. Rajesh Kumar</p>
-                            <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
-                                <div className="bg-white p-1 rounded-sm overflow-hidden">Associate Editor</div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Indian Institute of Technology Delhi</p>
-                            <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Data Science & Big Data Analytics
-                                </div>
-                            </div>
+                            </div> */}
                             <div className="flex gap-2">
                                 <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> India
                                 </div>
@@ -126,18 +78,66 @@ export default function Editorboard() {
                             <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
                                 <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
                             </div>
-                            <p className="inter-medium text-2xl text-black">Dr. Sarah Al-Mansoori</p>
+                            <p className="inter-medium text-2xl text-black">Caroline V. Katemba</p>
+                            <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
+                                <div className="bg-white p-1 rounded-sm overflow-hidden">Editor-in-chief</div>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Universitas Advent Indonesia</p>
+                            {/* <div className="flex gap-2">
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Artificial Intelligence
+                                </div>
+                            </div> */}
+                            <div className="flex gap-2">
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> Indonesia
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="p-[2px] rounded-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E]">
+                    <div className="bg-white p-5 rounded-2xl overflow-hidden h-full flex flex-col">
+                        <div className="flex flex-col gap-3 items-center">
+                            <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
+                                <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
+                            </div>
+                            <p className="inter-medium text-2xl text-black">Ali Saeed Alfoudi</p>
+                            <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
+                                <div className="bg-white p-1 rounded-sm overflow-hidden">Associate Editor</div>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">University of Al-Qadisiyah</p>
+                            {/* <div className="flex gap-2">
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Data Science & Big Data Analytics
+                                </div>
+                            </div> */}
+                            <div className="flex gap-2">
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> Iraq
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="p-[2px] rounded-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E]">
+                    <div className="bg-white p-5 rounded-2xl overflow-hidden h-full flex flex-col">
+                        <div className="flex flex-col gap-3 items-center">
+                            <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
+                                <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
+                            </div>
+                            <p className="inter-medium text-2xl text-black">Audai Hussein Al-Abbas</p>
                             <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
                                 <div className="bg-white p-1 rounded-sm overflow-hidden">Managing Editor</div>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Khalifa University</p>
-                            <div className="flex gap-2">
+                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Al-Furat Al-Awsat Technical University</p>
+                            {/* <div className="flex gap-2">
                                 <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Cybersecurity
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> UAE
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> Iraq
                                 </div>
                             </div>
                         </div>
@@ -150,18 +150,18 @@ export default function Editorboard() {
                             <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
                                 <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
                             </div>
-                            <p className="inter-medium text-2xl text-black">Prof. Marco Rossi</p>
+                            <p className="inter-medium text-2xl text-black">Abderrahim zannou</p>
                             <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
                                 <div className="bg-white p-1 rounded-sm overflow-hidden">Editorial Board Member</div>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">University of Bologna</p>
-                            <div className="flex gap-2">
+                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Abdelmalek Essaadi University</p>
+                            {/* <div className="flex gap-2">
                                 <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Internet of Things (IoT)
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> Italy
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> Morocco
                                 </div>
                             </div>
                         </div>
@@ -174,18 +174,18 @@ export default function Editorboard() {
                             <div className="bg-gradient-to-b from-[#E0048B] to-[#83268E] p-5 rounded-full">
                                 <img src="/assets/images/User.png" alt="User" className='w-30 h-32' />
                             </div>
-                            <p className="inter-medium text-2xl text-black">Dr. Lina Zhang</p>
+                            <p className="inter-medium text-2xl text-black">Danilo Avola</p>
                             <div className="p-[2px] rounded-md bg-gradient-to-b from-[#E0048B] to-[#83268E]">
                                 <div className="bg-white p-1 rounded-sm overflow-hidden">Editor</div>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Tsinghua University</p>
-                            <div className="flex gap-2">
+                        <div className="flex flex-col gap-2"> <p className="inter-regular text-gray-900 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">Sapienza University of Rome</p>
+                            {/* <div className="flex gap-2">
                                 <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Expertise :</span> Cloud Computing & Distributed Systems
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="flex gap-2">
-                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> China
+                                <div className='text-gray-600'><span className='inter-medium text-md text-gray-900'>Country    :</span> Rome
                                 </div>
                             </div>
                         </div>
