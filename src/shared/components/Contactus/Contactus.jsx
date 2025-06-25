@@ -185,7 +185,7 @@ export default function Contactus() {
                                 <IoIosMail className='text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#E0048B] flex-shrink-0 mt-1' />
                                 <div className="flex flex-col gap-1">
                                     <p className="inter-semibold text-lg">Email</p>
-                                    <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-gray-700 break-words">icastai.conference@gmail.com</p>
+                                    <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-gray-700 break-words">info.icastai@gmail.com</p>
                                 </div>
                             </div>
 

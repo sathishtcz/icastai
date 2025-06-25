@@ -115,12 +115,16 @@ function Homepage() {
       {/* About the Conference */}
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-18 mt-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-20 gap-10">
-          <div>
+          <div className="lg:block hidden">
             <img src="/assets/images/Aboutc.jpg" alt="Aboutimage" className='h-full w-full object-contain ' />
           </div>
           <div className="flex flex-col justify-center items-start gap-8">
             <h2 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">About the Conference</h2>
             <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">The International Conference on Advanced Smart Technologies and AI Innovations is a premier global forum that brings together researchers, and technology stakeholders to share insights, present cutting-edge innovations, and explore emerging trends in the fields of Artificial Intelligence, Smart Systems, Robotics, Big Data, and Ethical AI. ASTAI serves as a dynamic platform for fostering interdisciplinary collaboration and driving forward the future of intelligent technology.</p>
+
+            <div className="lg:hidden block ">
+            <img src="/assets/images/Aboutc.jpg" alt="Aboutimage" className='h-full w-full object-contain ' />
+          </div>
 
             <div className="flex flex-col gap-8">
               <div className="flex flex-col gap-1">
