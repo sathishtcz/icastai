@@ -67,7 +67,7 @@ export default function PaperSub() {
                 formDataToSend.append('Paper_File', formData.Paper_File);
             }
 
-            const response = await fetch('http://192.168.29.12/ICASTAI/Icastai/mail.php', {
+            const response = await fetch('http://192.168.29.11/ICASTAI/Icastai/mail.php', {
                 method: 'POST',
                 body: formDataToSend,
             });

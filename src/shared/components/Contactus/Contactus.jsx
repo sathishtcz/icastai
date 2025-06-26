@@ -40,7 +40,7 @@ export default function Contactus() {
             //     formDataToSend.append('Paper_File', formData.Paper_File);
             // }
 
-            const response = await fetch('http://192.168.29.12/ICASTAI/Icastai/contact.php', {
+            const response = await fetch('http://192.168.29.11/ICASTAI/Icastai/contact.php', {
                 method: 'POST',
                 body: formDataToSend,
             });
