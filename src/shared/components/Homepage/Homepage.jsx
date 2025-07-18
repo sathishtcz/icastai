@@ -196,7 +196,7 @@ function Homepage() {
       </div>
 
       {/* Our Featured Speakers */}
-      <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-18 mt-5">
+      {/* <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-18 mt-5">
         <div className="flex flex-col gap-10 justify-center items-center">
           <h2 className="hanuman-semibold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-3xl">Our Featured Speakers</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -235,7 +235,7 @@ function Homepage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Join Us at INCOCSA 2025 */}
       <div className="xl:max-w-[1500px]  md:max-w-[920px] mx-auto p-3 lg:mt-15 mt-5">
