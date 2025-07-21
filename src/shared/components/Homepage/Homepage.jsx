@@ -30,8 +30,8 @@ function Homepage() {
               </button>
             </div>
 
-            <div className="hanuman-semibold max-w-xl lg:mb-10 mb-[12px] text-2xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-              <h1 className="bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent lg:leading-9 xl:leading-12 md:leading-10 sm:leading-9 leading-9">International Conference on Advanced Smart Technologies and AI Innovations</h1>
+            <div className="hanuman-semibold max-w-3xl lg:mb-10 mb-[12px] text-2xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-5xl">
+              <h1 className="bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent lg:leading-9 xl:leading-14 md:leading-10 sm:leading-9 leading-9">International Conference on Advanced Smart Technologies and AI Innovations</h1>
             </div>
 
             <div className="mb-[12px]">

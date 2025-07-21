@@ -55,7 +55,7 @@ export default function Organizingcommittee() {
         </div>
       </div>
 
-      <div className="xl:max-w-[1300px]  md:max-w-[920px] mx-auto mt-15 px-3">
+      {/* <div className="xl:max-w-[1300px]  md:max-w-[920px] mx-auto mt-15 px-3">
         <div className="p-[2px] rounded-2xl bg-gradient-to-b from-[#E0048B] to-[#83268E]">
           <div className="bg-white p-5 rounded-xl overflow-hidden">
             <div className='text-center'>
@@ -155,7 +155,7 @@ export default function Organizingcommittee() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
