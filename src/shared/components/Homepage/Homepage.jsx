@@ -44,7 +44,7 @@ function Homepage() {
 
             <div className="flex  mb-[12px]  ">
               <div onClick={() => navigate('/paper-submission')} className="btn hover-border cursor-pointer">
-                <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-2 px-2 rounded">Register Here </button>
+                <button className="bg-[#1F1F1F] inter-medium text-base lg:text-lg text-white transition-all duration-200 py-2 px-2 rounded cursor-pointer">Register Here </button>
               </div>
             </div>
 
@@ -79,7 +79,7 @@ function Homepage() {
 
           <div className="flex lg:mb-0 mb-[12px]">
             <div onClick={() => navigate('/paper-submission')} className="btn hover-border cursor-pointer">
-              <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded">Register Here </button>
+              <button className="bg-[#1F1F1F] inter-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded">Register Here </button>
             </div>
           </div>
 
@@ -145,7 +145,7 @@ function Homepage() {
 
               <div className="flex">
                 <div onClick={() => navigate('/about')} className="btn hover-border cursor-pointer">
-                  <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded">Read more</button>
+                  <button className="bg-[#1F1F1F] inter-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded cursor-pointer">Read more</button>
                 </div>
               </div>
             </div>

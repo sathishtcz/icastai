@@ -105,9 +105,9 @@ const Header = () => {
 
 
     return (
-        <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 ${scrolled ? "bg-white shadow-md" : ""}`}>
+        <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 px-5  ${scrolled ? "bg-white shadow-md py-4" : "py-5"}`}>
             <div className="mx-auto w-full xl:max-w-[1500px] md:max-w-[920px] flex items-center justify-between">
-                <div className="p-5">
+                <div className="">
                     {/* <Link to="/" className="text-4xl hanuman-bold bg-gradient-to-b from-[#E0048B] to-[#83268E] bg-clip-text text-transparent">
                         ICASTAI
                     </Link> */}

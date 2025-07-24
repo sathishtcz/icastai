@@ -160,7 +160,7 @@ export default function Contactus() {
                                 </div>
                                 <div className="flex ">
                                      
-                                        <button type="submit" disabled={status === 'Sending...'} className="bg-[#1F1F1F] cursor-pointer hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-3 rounded">{status === 'Sending...' ? 'Submitting...' : 'Submit'}</button>
+                                        <button type="submit" disabled={status === 'Sending...'} className="bg-[#1F1F1F] cursor-pointer inter-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-3 rounded">{status === 'Sending...' ? 'Submitting...' : 'Submit'}</button>
                                     
                                 </div>
                             </div>

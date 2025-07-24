@@ -97,9 +97,9 @@ export default function Keydates() {
             </div>
             <div className="hidden lg:block mt-8">
               <div className="flex flex-row justify-between gap-2 items-center ">
-                <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[395px]' />
+                <div className='h-[2px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[395px]' />
                 <PiStarFourFill className='text-[#E0048B] logo-spin' />
-                <div className='h-[1.5px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[395px]' />
+                <div className='h-[2px] bg-gradient-to-r from-[#E0048B] to-[#83268E] w-[395px]' />
               </div>
             </div>
           </div>

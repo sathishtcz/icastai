@@ -14,7 +14,7 @@ function Register() {
                         </div>
                         <div className="flex items-center mt-4 lg:mt-0">
                             <div  onClick={() => navigate('/paper-submission')} className="cursor-pointer btn hover-border">
-                                <button className="bg-[#1F1F1F] hanuman-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded cursor-pointer">Register Here </button>
+                                <button className="bg-[#1F1F1F] inter-medium text-base lg:text-lg text-white transition-all duration-200 py-1 px-2 rounded cursor-pointer">Register Here </button>
                             </div>
                         </div>
                     </div>
